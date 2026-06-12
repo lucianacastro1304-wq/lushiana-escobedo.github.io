@@ -1,1 +1,163 @@
-hola
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lushiana Escobedo | Estudiante de Derecho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- MENÚ SUPERIOR (Pestañas Interactivas) -->
+    <nav class="menu-superior">
+        <div class="menu-contenido">
+            <span class="logo-nombre">Lushiana Escobedo</span>
+            <ul>
+                <li><a href="#" id="btn-acerca" class="activo">Acerca de mí</a></li>
+                <li><a href="#" id="btn-cv">CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- CONTENEDOR PRINCIPAL (Dos Columnas con Flexbox) -->
+    <main class="contenedor-principal">
+        
+        <!-- COLUMNA IZQUIERDA: Foto y Contactos Básicos -->
+        <aside class="columna-izquierda">
+            <!-- Recuerda guardar tu foto cuadrada como "mi-foto.jpg" en una carpeta llamada "assets" -->
+            <img src="assets/mi-foto.jpeg" alt="Foto de perfil" class="foto-perfil">
+            
+            <h2>Lushiana Andrea Escobedo Castro</h2>
+            <p class="subtitulo">Estudiante de Derecho | Apasionada por el aprendizaje continuo y la excelencia jurídica.</p>
+            
+            <ul class="lista-contacto">
+                <li>📍 Lima, Perú</li>
+                <li>🏛️ Universidad Científica del Sur</li>
+                <li>✉️ <a href="mailto:lucianacastro1304@gmail.com">Email</a></li>
+                <li>🔗 <a href="https://github.com/lucianacastro1304-wq" target="_blank" rel="noreferrer">GitHub</a></li>
+                <li>🔗 <a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            </ul>
+
+            
+        </aside>
+
+        <!-- COLUMNA DERECHA: Intercambio de Pestañas -->
+        <section class="columna-derecha">
+
+            <!-- PESTAÑA 1: ACERCA DE MÍ -->
+            <div id="bloque-acerca">
+                <h1>Acerca de mí</h1>
+                
+                <p>Soy <strong>estudiante de Derecho</strong> y creo que la profesión jurídica debe ir acompañada de una formación integral, curiosidad intelectual y una constante disposición para aprender y adaptarse a los cambios.</p>
+                
+                <p>Disfruto estudiar, investigar y comprender cómo las normas, las instituciones y las personas se relacionan para construir soluciones que tengan un impacto real. Me interesa especialmente desarrollar una visión del Derecho que combine <strong>rigor jurídico, pensamiento estratégico</strong> y una comprensión más humana de los problemas.</p>
+                
+                <p>Considero que el aprendizaje no se limita a las aulas. Me gusta leer, organizar conocimiento, explorar nuevas herramientas y cultivar hábitos que me permitan crecer tanto a nivel académico como personal. Creo en la <strong>disciplina</strong>, en la <strong>mejora continua</strong> y en la importancia de construir una vida equilibrada.</p>
+                
+                <p>Valoro los pequeños detalles, la constancia y el trabajo bien hecho. Pienso que el éxito no es producto de la improvisación, sino del <strong>compromiso diario</strong> con las metas que uno se propone.</p>
+
+                <h3>Lo que estoy construyendo</h3>
+                <ol style="padding-left: 20px; line-height: 1.6;">
+                    <li style="margin-bottom: 20px;">
+                        <strong>1. Formación jurídica sólida</strong><br>
+                        Busco desarrollar una base jurídica sólida que me permita desempeñarme con responsabilidad, ética y criterio, comprendiendo que el Derecho es una herramienta para generar cambios positivos en la sociedad.
+                    </li>
+                    <li style="margin-bottom: 20px;">
+                        <strong>2. Desarrollo personal y aprendizaje continuo</strong><br>
+                        Creo en la importancia de formar hábitos, mantener la curiosidad intelectual y cultivar una mentalidad de crecimiento. Aspiro a convertirme en una profesional que nunca deje de aprender.
+                    </li>
+                    <li style="margin-bottom: 20px;">
+                        <strong>3. Una visión integral del futuro</strong><br>
+                        Mi objetivo es construir un perfil profesional que combine conocimientos jurídicos, pensamiento crítico, capacidad estratégica y adaptación a los desafíos de una sociedad en constante transformación.
+                    </li>
+                </ol>
+
+                <h3>Una manera de decirlo</h3>
+                <ul style="list-style-type: square; padding-left: 20px; line-height: 1.8; color: #374151;">
+                    <li>Aprendo con <strong>humildad</strong> para seguir creciendo.</li>
+                    <li>Trabajo con <strong>disciplina</strong> para convertir las metas en resultados.</li>
+                    <li>Y miro hacia el futuro con la convicción de que los grandes cambios se construyen a través de la constancia, el conocimiento y el deseo de aportar algo valioso a los demás.</li>
+                </ul>
+
+                <h3>Mi lema</h3>
+                <p style="font-size: 1.1rem; font-style: italic; color: #111827; background-color: #f9fafb; padding: 15px; border-left: 4px solid #374151; border-radius: 4px;">
+                    ✨ Crecer cada día para convertirme en la profesional y la persona que aspiro a ser.
+                </p>
+            </div>
+
+            <!-- PESTAÑA 2: TU CV REAL (Inicia oculto) -->
+            <div id="bloque-cv" class="oculto">
+                <h1>Currículum Vitae</h1>
+                
+                <h3>Resumen profesional</h3>
+                <p>Estudiante de séptimo ciclo de Derecho de la Universidad Científica del Sur, con experiencia en asistencia legal y seguimiento procesal. Interesada en las áreas de derecho corporativo, derecho civil y nuevas tendencias del ejercicio profesional. Cuento con experiencia en la elaboración de escritos, seguimiento de expedientes y manejo de plataformas digitales del sistema de justicia, desarrollando habilidades de organización, análisis y responsabilidad. Busco continuar fortaleciendo mi formación académica y adquirir experiencia que me permita aportar soluciones jurídicas con criterio, ética y una visión integral del Derecho.</p>
+
+                <h3>Educación</h3>
+                <div class="item-cv">
+                    <strong>Universidad Científica del Sur</strong><br>
+                    Estudiante de Derecho – Séptimo ciclo<br>
+                    2024 – Actualidad
+                </div>
+
+                <h3>Experiencia profesional</h3>
+                <div class="item-cv">
+                    <strong>Asistente Legal</strong><br>
+                    Abogada independiente | 2024 – Actualidad
+                    <ul style="padding-left: 20px; margin-top: 8px; font-size: 0.95rem; color: #374151; line-height: 1.6;">
+                        <li>Seguimiento y control de expedientes judiciales.</li>
+                        <li>Elaboración de escritos y apoyo en la redacción de documentos procesales.</li>
+                        <li>Manejo y consulta de expedientes mediante la plataforma de Consulta de Expedientes Judiciales (CEJ).</li>
+                        <li>Utilización del Sistema de Notificaciones Electrónicas (SINOE) para la revisión y seguimiento de notificaciones.</li>
+                        <li>Seguimiento de procesos y coordinación de diligencias ante diversos juzgados.</li>
+                        <li>Apoyo en la organización documental y gestión de información jurídica.</li>
+                        <li>Búsqueda y análisis de normativa y jurisprudencia aplicable a distintos casos.</li>
+                    </ul>
+                </div>
+
+                <h3>Formación complementaria</h3>
+                <ul style="padding-left: 20px; line-height: 1.8; color: #374151;">
+                    <li><strong>2025:</strong> Curso "Manual de Supervivencia Corporativa" – Pontificia Universidad Católica del Perú</li>
+                    <li><strong>2025:</strong> Curso "La Ruta Legal del Abogado Corporativo" – Pontificia Universidad Católica del Perú</li>
+                </ul>
+
+                <h3>Idiomas</h3>
+                <ul style="padding-left: 20px; line-height: 1.8; color: #374151; list-style-type: square;">
+                    <li><strong>Español:</strong> Nativo.</li>
+                    <li><strong>Inglés:</strong> Nivel básico, intermedio y avanzado culminados.</li>
+                    <li><strong>Francés:</strong> Nivel básico.</li>
+                </ul>
+
+                <h3>Competencias</h3>
+                <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 15px;">
+                    <div style="flex: 1; min-width: 250px; background: #f9fafb; padding: 15px; border-radius: 6px; border: 1px solid #f3f4f6;">
+                        <strong style="color: #111827;">⚖️ Competencias Jurídicas</strong>
+                        <ul style="padding-left: 15px; margin-top: 8px; font-size: 0.9rem; line-height: 1.6; color: #4b5563;">
+                            <li>Redacción de escritos y documentos legales</li>
+                            <li>Seguimiento procesal e investigación jurídica</li>
+                            <li>Interpretación normativa y análisis de jurisprudencia</li>
+                            <li>Manejo experto de CEJ y SINOE</li>
+                        </ul>
+                    </div>
+                    <div style="flex: 1; min-width: 250px; background: #f9fafb; padding: 15px; border-radius: 6px; border: 1px solid #f3f4f6;">
+                        <strong style="color: #111827;">🧠 Competencias Personales y Digitales</strong>
+                        <ul style="padding-left: 15px; margin-top: 8px; font-size: 0.9rem; line-height: 1.6; color: #4b5563;">
+                            <li>Responsabilidad, compromiso y trabajo en equipo</li>
+                            <li>Organización, gestión del tiempo y adaptabilidad</li>
+                            <li>Comunicación efectiva y aprendizaje continuo</li>
+                            <li>Manejo de Microsoft Word, Excel y PowerPoint</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>Objetivo e Intereses profesionales</h3>
+                <p><strong>Áreas de interés:</strong> Derecho Corporativo, Derecho Civil, Derecho Administrativo, Gestión del conocimiento y Resolución de conflictos.</p>
+                <p style="font-style: italic; color: #4b5563; border-left: 3px solid #ccc; padding-left: 10px;">"Consolidar una formación jurídica integral y desarrollar una carrera profesional orientada al derecho corporativo y áreas afines, combinando conocimientos teóricos y experiencia práctica para contribuir de manera eficiente y responsable a la solución de problemas jurídicos y al fortalecimiento de las organizaciones."</p>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- ENLACE DE JAVASCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
